@@ -185,3 +185,64 @@ body {
   border-color: #c9a84c;
   color: #c9a84c;
 }
+
+/* --- Footer --- */
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 40px 60px 24px;
+  background: #101010;
+  border-top: 1px solid #2a2a2a;
+}
+
+.footer-col {
+  min-width: 180px;
+  max-width: 320px;
+}
+
+.footer-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: #c9a84c;
+  margin-bottom: 12px;
+}
+
+.footer-col h3 {
+  font-size: 0.95rem;
+  color: #f5f5f5;
+  margin-bottom: 14px;
+}
+
+.footer-col p {
+  color: #aaaaaa;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.footer-col a {
+  display: block;
+  text-decoration: none;
+  color: #aaaaaa;
+  font-size: 0.92rem;
+  margin-bottom: 8px;
+  transition: color 0.2s;
+}
+
+.footer-col a:hover {
+  color: #c9a84c;
+}
+
+.footer-bottom {
+  padding: 0 60px 30px;
+  background: #101010;
+}
+
+.footer-bottom p {
+  color: #777;
+  font-size: 0.85rem;
+  border-top: 1px solid #2a2a2a;
+  padding-top: 18px;
+}
